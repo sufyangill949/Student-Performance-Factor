@@ -6,7 +6,7 @@ from sklearn.metrics import r2_score, mean_absolute_error
 
 st.set_page_config(page_title="Student Performance Predictor", page_icon="🎓")
 st.title("🎓 Student Performance Predictor")
-st.write("Student ki details daalo aur predicted exam marks dekho.")
+st.write("Enter a student's details below to predict their exam score.")
 
 @st.cache_data
 def load_data():
